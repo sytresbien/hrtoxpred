@@ -26,5 +26,5 @@ python -u run_classifier_chem.py \
 --mask fully_visible \
 --finetune_target BACE
 ```
-The pretrained model hrmolbert.bin is available from https://drive.google.com/file/d/13PHT4krOuV4A7cwJWdEnRb-69vZjYs3K/view?usp=share_link
+The pretrained model hrtoxpred.bin is available from https://drive.google.com/file/d/13PHT4krOuV4A7cwJWdEnRb-69vZjYs3K/view?usp=share_link
 ### The full code will be released after our paper is accepted
