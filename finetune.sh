@@ -1,0 +1,14 @@
+python3 -u run_classifier_chem.py \
+--pretrained_model_path pretrained_model/hrmolbert.bin \
+--vocab_path corpora/vocab.txt \
+--train_path finetune_data/BACE/BACE_fp_rad2_addhs_train.txt \
+--dev_path finetune_data/BACE/BACE_fp_rad2_addhs_dev.txt \
+--test_path finetune_data/BACE/BACE_fp_rad2_addhs_test.txt \
+--seq_length 512 \
+--epochs_num  32 \
+--batch_size 8 \
+--tokenizer space \
+--embedding word_pos_seg \
+--encoder transformer \
+--mask fully_visible \
+--finetune_target BACE
